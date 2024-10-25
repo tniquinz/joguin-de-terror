@@ -1,0 +1,50 @@
+o jogo se passa de noite\chuva\tempestade:
+começa com ele indo ao banheiro
+(ele volta a dormir, e fica tendo pesadelos com o monstro)
+(ele acorda e com medo vai para o quarto dos pais,(ele não conseguira fazer outras interações pois terá medo, quando ele chegar no quarto dos pais verá que eles sumiu))
+(a criança procura eles pela casa, não acha (nesse meio tem a aparição do monstro varias vezes))
+(dps)( ele sai de casa para procurar os pais deles)
+
+
+letra para interagir com as coisas é J (toda vez que o jogador chegar perto de algo que pode interagir aparecerá, aperta a tecla J (já tem um sprite do aperta a tecla J)
+
+letra para sair da interação é a B (toda vez que jogador interagir com algo que o "prenda" naquela tela, por exemplo a televisão, depois do sprite_noticia ela ficará para sempre no sprite_conteudoTv, mas se apertar a letra B ele sai)
+
+sprite_noticia ( e o sprite que vai passar após os 25 segundos da televisão)
+
+sprite_conteudoTv ( é o sprite que aparece quando vc liga a televisão e tambem após o sprite_noticia)
+
+todo o cenario muda, caso esteja chuvendo ira carregar sprite_chuva, em background do cenario, e o som de chuva com raios.
+
+o monstro é mais rapido que o jogador(no corredor)
+(a primeira aparição do monstro terá uma fala do personagem principal,)
+(eu vou... morrer?)
+ai o monstro irá correr atrás do personagem
+
+
+quando interagir com porta trancada dentro da casa do personagem principal terá um diagolo
+(ah, meus pais devem ter trancado)
+
+dps do Menu,(cutscene) o personagem está deitado na cama, (ele precisa ir ao banheiro) após 3 segundos, ele acorda( dá uma tremidinha no personagem.) ele levanta, nesse momento o jogador pode interagir com as coisas no quarto dele,
+por exemplo o armario (caso o jogador interagir com o armario ele pegará uma chave (chave porão)), temos tambem a cama para interação, (caso o jogador interagir com a cama ele voltará a dormir, ele deita na cama, e após isso a tela
+se escurece aos poucos, e depois começa a chuva com raios até o final do jogo, e o jogador não poderá interagir denovo com a cama, se ele tentar aparece, está chuvendo e trovejando, eu tenho medo, e eu estou apertado para ir ao banheiro.
+ou seja só tem uma interação.(mas quando ele ir ao banheiro a mensagem será apenas está chuvendo e trovejando, eu tenho medo.) temos tambem a televisão para interagir,(caso o jogador interagir com a televisão ela aparece a sequencia
+de sprites da televisão, após o jogador começar a interagir, terá um cronometro de 25 segundos, e quando terminar apareçe o sprite(noticia), essa noticia avisará ao jogador sobre a situação do jogo, o jogador pode apertar a letra B 
+para sair a qualquer momento da televisão, carrega o sprite da letra B, ) tambem tem a porta para interagir, (caso ele interagir com a porta ele sai do quarto e vai para o corredor, (caso ele não tenha interagido com a cama o corredor
+ficara normal) (mas se o jogador tiver interagido com a cama, quando voce ir para o corredor após 1,5 segundos um monstro começará a correr atrás de você, e se ele chegar muito perto de você carrega o sprite de jumpscare e o bixo some,
+a tela vai ficar piscando entre preto e vermelho mas transparente e dps de 5 segundos a tela vai voltar ao normal.(lembrete isso só acontece a primeira vez que o jogador passar pelo corredor) o player chegando no final do corredor o
+jogador irá interagir para sair do corredor e ir para a sala, na sala tem 3 portas a para ir para escada,(trancado) a para ir no quarto dos pais e a outra porta é a cozinha,
+caso ele vai interagir com a porta dos quartos dos pais ele entra e ve os pais dormindo, ele não pode fazer barulho se não acorda o seu pai e a sua mãe, tera 4 coisas para interagir no quarto dos pais(mas tem que tomar cuidado já que poderá
+acordar os pais se eles acordarem te tirar do quarto, (a tela vai escurecer e após 3 segundos ela vai voltar ao normal mas o personagem está de volta na sala e se tentar entrar no quarto ele estará trancado e aparecerá uma fala do pai: vai
+dormir filho)
+umas das coisas para interagir é jogo torre de equilibrio, que é um mini-game onde se você conseguir concluir você ganhará a chave para abrir a porta para a escada, esse minigame tem uma linha horizontal e dentro dessa linha fica um quadrado
+azul que vai para o inicio da linha e dps para o final dessa linha e no meio um quadrado verde fixo(tudo desse mini-game fica em baixo da tela enquanto carrega um sprite no background) ele funciona que nem jogo de ritmo, quando o quadrado azul 
+tiver no verde vc aperta a tecla espaço, são 15 niveis, e cada vez mais rapido, por exemplo primeiro começa lento depois disso vai aumentado(no caso por nivel a cada nivel ele vai ficando mais rapido). (mas se vc errar o quadrado você perde e 
+automaticamente os pais acordam. chegou no nivel 15 e terminou, o mini-game aparecerá um draw na tela dizendo( parabens vc conclui o mini-game recebeu a chave da escada) 
+outro interagivel é os pais caso vc chegue perto deles e interaja com eles (eles acorda)
+outro é uma taça de vinho, caso você interaja ela irá cair e quebrar acordando o seus pais.
+e a ultima interação é a escrivaninha que tem um quadro foto em familia (se estiver chuvendo você verá o sprite_quadroEmFamiliaAnomalia e logo depois quando você sair do quarto o monstro aparecerá e dara jumpscare.)
+
+caso vc interaja com a cozinha, aparecerá (dialogo: eu não estou com fome agora, apenas com vontade de ir ao banheiro)
+
+com a chave da escada em mãos o jogador poderá abirir a porta da escada e ir ao banheiro
